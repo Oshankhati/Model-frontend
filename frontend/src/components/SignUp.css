@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&family=Orelega+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.page-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  justify-content: flex-start;       /* Move items toward the left */
+  align-items: center;
+  padding-left: 100px;              /* ⬅️ Controls left shift */
+}
+
+.signup-box {
+  width: 553px;
+  height: 700px;
+  background-color: rgba(0, 127, 137, 0.92); /* Slight transparency */
+  border-radius: 40px;
+  padding: 40px 36px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.logo {
+  font-family: 'Aladin', cursive;
+  font-size: 36px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.logo img {
+  height: 36px;
+  margin-right: 6px;
+  font-family: 'Aladin', cursive;
+  font-size: 36px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tagline {
+  font-family: 'Orelega One', cursive;
+  text-align: center;
+  font-weight: 400;
+  font-size: 24px;
+  color: black;
+  margin-bottom: 24px;
+}
+
+.form label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.form input {
+  width: 100%;
+  height: 44px;
+  padding: 0 16px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 9999px;
+  font-size: 15px;
+}
+
+.signup-button {
+  margin-top: 24px;
+  width: 100%;
+  padding: 14px;
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-button:hover {
+  background: #222;
+}
